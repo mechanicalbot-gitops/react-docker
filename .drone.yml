@@ -4,8 +4,8 @@ type: docker
 name: default
 
 steps:
-- name: frontend
-  image: node
-  commands:
-  - yarn install
-  - yarn test
+  - name: frontend
+    image: node
+    commands:
+      - yarn install
+      - yarn test
